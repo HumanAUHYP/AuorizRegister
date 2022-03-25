@@ -44,16 +44,16 @@ namespace AuorizRegister.Data
             {
                 builder.OpenElement(++seq, "div");
                 builder.AddAttribute(++seq, "style", "display: flex; justify-content: space-between; margin-bottom: 10px");
-                builder.AddContent(++seq, "Login");
+                builder.AddContent(++seq, "Login:");
                 builder.OpenElement(++seq, "input");
-                builder.AddAttribute(++seq, "style", "margin-left: -30px");
+                builder.AddAttribute(++seq, "style", "margin-right: 30px");
                 builder.CloseElement();
                 builder.CloseElement();
                 builder.OpenElement(++seq, "div");
                 builder.AddAttribute(++seq, "style", "display: flex; justify-content: space-between");
-                builder.AddContent(++seq, "Password");
+                builder.AddContent(++seq, "Password:");
                 builder.OpenElement(++seq, "input");
-                builder.AddAttribute(++seq, "style", "margin-left: -30px");
+                builder.AddAttribute(++seq, "style", "margin-right: 30px");
                 builder.CloseElement();
                 builder.CloseElement();
             };
